@@ -25,6 +25,8 @@ loom {
 tasks.processResources {
     inputs.properties("version" to project.version)
 
+    from(file("LICENSE"))
+
     filesMatching("fabric.mod.json") {
         expand("version" to inputs.properties["version"])
     }
