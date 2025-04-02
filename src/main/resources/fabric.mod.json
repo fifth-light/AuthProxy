@@ -1,0 +1,17 @@
+{
+	"schemaVersion": 1,
+	"id": "authproxy",
+	"version": "${version}",
+	"name": "Authproxy",
+	"description": "Make authlib use your proxy.",
+	"authors": ["fifth_light"],
+	"license": "LGPL-3.0-or-later",
+	"environment": "server",
+	"mixins": ["authproxy.mixins.json"],
+	"icon": "icon.png",
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "*",
+		"java": ">=21"
+	}
+}

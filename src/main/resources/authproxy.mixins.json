@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "top.fifthlight.authproxy.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "server": ["MainMixin"]
+}
